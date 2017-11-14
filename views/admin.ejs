@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin</title>
+</head>
+
+<body>
+    
+    <h1>Admin Page</h1>
+    <table>
+    <% for (var counter = 0; counter < people.length; counter++){ %>
+
+        <tr>
+<td>
+    <%= people[counter].first_name%>
+</td>
+<td>
+    <%= people[counter].last_name%>
+</td>
+
+        </tr>
+
+        <% } %>
+
+</table>
+</body>
+</html>
